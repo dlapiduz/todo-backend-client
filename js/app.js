@@ -25,7 +25,7 @@ $(function () {
 	'use strict';
 
 
-  var apiRootUrl = "http://52.238.112.211/todos";
+  var apiRootUrl = "http://dlap.usgovtexas.cloudapp.usgovcloudapi.net:8080/todos";
   if( !apiRootUrl ){
     $("body > *").hide();
     $("#api-root").show();
